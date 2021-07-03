@@ -38,13 +38,13 @@ body {
   margin: 0;
 }
 
-@media (min-width: 1440px) { 
-  :root {
-    --size-divisor: 1;
-  }
-  body {
-    width: 100%;
-  }
+
+
+h3 {
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  margin-top: 30px;
 }
 
 .movie-container {
@@ -76,7 +76,7 @@ body {
 .seat {
   background-color:rgb(134, 134, 134);
   height: 16px;
-  width: calc(30px / var(--size-divisor));
+  width: calc(32px / var(--size-divisor));
   margin: 5px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
